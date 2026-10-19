@@ -1,11 +1,11 @@
 import random
 
 import pytest
+from conftest import DATA, read
 
 from machine_spec_parser import IssueCode, Severity, parse_html, run
 from machine_spec_parser.fetch import FetchError, FileFetcher, FlakyFetcher
 from machine_spec_parser.pipeline import decimal_hint_for
-from conftest import DATA, read
 
 
 def rec(name):

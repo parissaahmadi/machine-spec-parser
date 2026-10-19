@@ -53,7 +53,7 @@ def test_decode_falls_back_to_latin1():
 
 
 def test_decode_honours_declared_charset():
-    data = '<meta charset="windows-1256"><p>'.encode() + "قدرت".encode("cp1256")
+    data = b'<meta charset="windows-1256"><p>' + "قدرت".encode("cp1256")
     assert "قدرت" in decode_html(data)
 
 

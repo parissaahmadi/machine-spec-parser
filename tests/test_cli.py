@@ -3,8 +3,9 @@ import csv
 import io
 import json
 
-from machine_spec_parser.cli import main
 from conftest import DATA
+
+from machine_spec_parser.cli import main
 
 
 def call(*argv):

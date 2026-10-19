@@ -7,7 +7,7 @@ import time
 from collections.abc import Callable, Iterable
 from dataclasses import dataclass, field
 
-from .fetch import FetchFailed, Fetcher, RateLimiter, RetryPolicy, fetch_with_retry
+from .fetch import Fetcher, FetchFailed, RateLimiter, RetryPolicy, fetch_with_retry
 from .html_table import extract_document
 from .models import Issue, IssueCode, Severity, SpecField, SpecRecord
 from .names import identify_model

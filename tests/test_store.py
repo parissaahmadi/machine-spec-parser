@@ -1,6 +1,7 @@
+from conftest import DATA, read
+
 from machine_spec_parser import Severity, Store, parse_html, run
 from machine_spec_parser.fetch import FileFetcher
-from conftest import DATA, read
 
 
 def loaded_store():
