@@ -1,4 +1,4 @@
-![ci](https://github.com/<USERNAME>/machine-spec-parser/actions/workflows/ci.yml/badge.svg)
+![ci](https://github.com/parissaahmadi/machine-spec-parser/actions/workflows/ci.yml/badge.svg)
 
 # machine-spec-parser
 
